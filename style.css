@@ -1,0 +1,102 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f7faf6;
+    color:#26352c;
+    line-height: 1.6;
+}
+h2{
+    color: #34784c;
+    margin-bottom: 20px;
+
+}
+h3{
+    color: #34784c;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap:wrap;
+    padding: 15px 8%;
+    background-color: white;
+    box-shadow: 0 2px 8px #00000010;
+}
+header h1{
+    color: #34784c;
+    flex-wrap: wrap;
+    gap:18px;
+
+}
+nav a{
+    text-decoration: none;
+    color: #34784c;
+    font-weight: bold;
+}
+nav a:hover{
+    color: #34784c;
+}
+
+.hero {
+    text-align: center;
+    padding: 90px 20px;
+    background-color: #e5f1e5
+}
+.hero h2 {
+    max-width: 38px;
+    margin-bottom:15px;
+}
+.hero p{
+    max-width: 650px;
+    margin: 0 auto;
+    font-size: 18px;
+}
+
+#Company h3,
+#problem h3{
+    margin-top: 30px;
+}
+
+.member-card{
+    background-color: white;
+    padding:25px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px #00000010;
+    border-top:4px solid #34784c;
+    flex: 1 1 220px;
+    max-width: 300px;
+}
+
+.member-card h3{
+    margin-top: 5px;
+}
+
+.member-card p{
+    font-size:15px;
+}
+
+#member{
+    padding-bottom: 70px;
+}
+
+@media(max-width:768px){
+    header{
+        flex-direction: column;
+        text-align: center;
+    }
+    nav{
+        justify-content: center;
+        gap:12px;
+    }
+    .hero h2{
+        font-size: 28px;
+    }
+    section{
+        padding:40px 5%
+    }
+}
+
